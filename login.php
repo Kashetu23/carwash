@@ -12,7 +12,7 @@ $connection = mysqli_connect($host,$un,$pwd,$dbname);
 <body>
   <h1>Welcome to Students Registration Page</h1>
   <p>Please fill in the form to login.</p>
-  <form method="post" action="index.html">
+  <form method="post" action="booking.php">
 
 <input type="text" name="username" id="username"placeholder="Enter Username "required/>
 <br/>
