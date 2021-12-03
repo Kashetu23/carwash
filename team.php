@@ -19,10 +19,10 @@
                       <h2>Joel Kashetu</h2>
                       <p>Engineer</p>
                       <div class="team-social">
-                          <a href=""><i class="fab fa-twitter"></i></a>
-                          <a href=""><i class="fab fa-facebook-f"></i></a>
+                          <a href="https://twitter.com/essienjunior_" target="_blank"><i class="fab fa-twitter"></i></a>
+                          <a href="https://www.facebook.com/me/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                           <a href=""><i class="fab fa-linkedin-in"></i></a>
-                          <a href=""><i class="fab fa-instagram"></i></a>
+                          <a href="https://www.instagram.com/kashetu.jr/" target="_blank"><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
               </div>
@@ -35,12 +35,7 @@
                   <div class="team-text">
                       <h2>Elivs Atiglo</h2>
                       <p>Worker</p>
-                      <div class="team-social">
-                          <a href=""><i class="fab fa-twitter"></i></a>
-                          <a href=""><i class="fab fa-facebook-f"></i></a>
-                          <a href=""><i class="fab fa-linkedin-in"></i></a>
-                          <a href=""><i class="fab fa-instagram"></i></a>
-                      </div>
+
                   </div>
               </div>
           </div>
@@ -50,14 +45,9 @@
                       <img src="img/team-4.jpg" alt="Team Image">
                   </div>
                   <div class="team-text">
-                      <h2>Bless </h2>
-                      <p>Worker</p>
-                      <div class="team-social">
-                          <a href=""><i class="fab fa-twitter"></i></a>
-                          <a href=""><i class="fab fa-facebook-f"></i></a>
-                          <a href=""><i class="fab fa-linkedin-in"></i></a>
-                          <a href=""><i class="fab fa-instagram"></i></a>
-                      </div>
+                      <h2>Bless Tetteh </h2>
+                      <p>Group Leader</p>
+
                   </div>
               </div>
           </div>

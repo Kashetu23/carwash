@@ -20,8 +20,7 @@
                         <h2>About Us</h2>
                     </div>
                     <div class="col-12">
-                        <a href="index.html">Home</a>
-                        <a href="">About Us</a>
+                        <a href="index.php">Home</a>
                     </div>
                 </div>
             </div>
@@ -50,7 +49,7 @@ A car wash or auto wash is a facility used to clean the exterior and, in some ca
                                 <li><i class="far fa-check-circle"></i>Seats washing</li>
                                 <li><i class="far fa-check-circle"></i>Vacuum cleaning</li>
                                 <li><i class="far fa-check-circle"></i>Interior wet cleaning</li>
-                                <li><i class="far fa-check-circle"></i>Window wiping</li>
+                                <li><i class="far fa-check-circle"></i>Engine washing</li>
                             </ul>
                             <a class="btn btn-custom" href="https://cobblestone.com/everything-know-auto-detailing/"target="
                             ">Learn More</a>

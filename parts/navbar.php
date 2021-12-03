@@ -11,7 +11,7 @@
                     <a href="index.php" class="nav-item nav-link active">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
-                    <a href="booking.php" class="nav-item nav-link">Schedule Booking</a>
+                    <a href="price.php" class="nav-item nav-link">Service Prices</a>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
 

@@ -44,8 +44,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Bexhill Street,TEMA, Ghana</p>
+                                        <p><strong>Call:</strong>054 156 5266</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,8 +54,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Airport Residential Street,Accra, Ghana</p>
+                                        <p><strong>Call:</strong>054 156 5266</p>
                                     </div>
                                 </div>
                             </div>
@@ -64,8 +64,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Junction Mall Street, TEMA, Ghana</p>
+                                        <p><strong>Call:</strong>054 156 5266</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,8 +74,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                     <div class="location-text">
                                         <h3>Car Washing Point</h3>
-                                        <p>123 Street, New York, USA</p>
-                                        <p><strong>Call:</strong>+012 345 6789</p>
+                                        <p>Awoshie Street, Accra, Ghana</p>
+                                        <p><strong>Call:</strong>054 156 5266</p>
                                     </div>
                                 </div>
                             </div>
