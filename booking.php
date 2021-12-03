@@ -4,11 +4,11 @@
 
     <body>
         <!-- Top Bar Start -->
-      <?php include 'parts/topbar.php'; ?>
+      <?php include 'parts/tobar1.php'; ?>
         <!-- Top Bar End -->
 
         <!-- Nav Bar Start -->
-        <?php include 'parts/navbar.php'; ?>
+        <?php include 'parts/navbar1.php'; ?>
         <!-- Nav Bar End -->
 
 

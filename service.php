@@ -58,7 +58,7 @@
                             <p>Clean the carpet with a vacuum cleaner to remove any dirt.Use the vacuum cleaner to suck up crumbs from the carpet and seats.</p>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 col-md-6">
                         <div class="service-item">
                             <i class="flaticon-car-service"></i>
@@ -102,9 +102,9 @@
                 </div>
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
-                        <img src="img/testimonial-1.jpg" alt="Image">
+                        <img src="img/testimonial-1.jpeg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Jedidiah</h3>
+                            <h3>Jedidiah Sokpoli</h3>
                             <h4>TV Presenter</h4>
                             <p>
                               BEST CAR WASH IN TOWN!!!
@@ -113,9 +113,9 @@
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <img src="img/testimonial-2.jpg" alt="Image">
+                        <img src="img/testimonial-2.jpeg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Joshua</h3>
+                            <h3>Joshua Ngmertey</h3>
                             <h4>Software Engineer</h4>
                             <p>
                               I love this car wash! The service is awesome....they always do a great job cleaning my wheels (which I am kind of picky about)....TRY IT YOU WILL NOT REGRET IT...
@@ -124,9 +124,9 @@
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <img src="img/testimonial-3.jpg" alt="Image">
+                        <img src="img/testimonial-3.jpeg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client Nicholas</h3>
+                            <h3>Obeng Nana  Addo</h3>
                             <h4>Software Developer And Graphic Designer</h4>
                             <p>
                               I have been washing my car at Streets car wash for a few months now and I’ve never had any problems. Every time I go, all the employees are very nice and car comes out even nice. I highly recommend this carwash :)
@@ -135,12 +135,12 @@
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <img src="img/testimonial-4.jpg" alt="Image">
+                        <img src="img/testimonial-4.jpeg" alt="Image">
                         <div class="testimonial-text">
-                            <h3>Client William</h3>
+                            <h3>William Oppong</h3>
                             <h4>Body Builder</h4>
                             <p>
-                              Love their service; They do an Excellent all the time. Best Car wash in South Bay!!! I recommend
+                                Love their service; They do an Excellent all the time. Best Car wash in Greater Accra!!! I recommend
 
                             </p>
                         </div>

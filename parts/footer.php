@@ -12,7 +12,7 @@
                         <a class="btn" href="https://www.facebook.com/me/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn" href="https://www.instagram.com/kashetu.jr/" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                        
                     </div>
                 </div>
             </div>
