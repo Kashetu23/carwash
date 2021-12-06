@@ -1,3 +1,13 @@
+<?php
+$host = "localhost";
+$un = "root";
+$pwd = "";
+$dbname = "project1";
+$connection = mysqli_connect($host,$un,$pwd,$dbname);
+
+
+
+ ?>
 <html>
 <head>
 <title>Streets</title>
@@ -60,24 +70,20 @@ body {
                         <form id="login-form" class="form" action="booking.php" method="post">
                             <h4 class="text-center text-info"><b>Enter your details...</b></h4>
                             <div class="form-group">
-                              <b>Email: </b>
-                               <input class="text" type="text" name="email" placeholder="  enter email" required="">
+                              <b>Username: </b>
+                               <input class="text" type="text" name="username" placeholder="  Enter Username" required="">
                             </br>
                           </br>
-                          <b>Pasword: </b>
-                          <input class="text" type="text" name="password" placeholder="enter password" required="">
+                          <b>Phone: </b>
+                          <input class="text" type="text" name="phone" placeholder="enter Phone number" required="">
                             </br>
                           </br>
-                          <b> password:</b>
-                          <input class="text" type="text" name="Password" placeholder="please confirm password" required="">
+                          <b> Email:</b>
+                          <input class="text" type="email" name="email" placeholder="please email" required="">
                         </br>
                         </br>
-                        <b>First name: </b>
-                              <input class="text" type="text" name="First name" placeholder="enter first name" required="">
-                            </br>
-                            </br>
-                          <b>Other name: </b>
-                              <input class="text" type="text" name="Other name" placeholder="enter other name" required="">
+                          <b>Password: </b>
+                              <input class="text" type="password" name="password" placeholder="enter password" required="">
                               </br>
                              </br>
                            <b>Gender:</b>
@@ -95,11 +101,29 @@ body {
                                <a href="login.html"> Already have an account</a>
 
                             </br>
-                                <input type="submit" name="Submit" class="btn btn-info btn-md" value="Register">
+                                <input type="submit" name="register" class="btn btn-info btn-md" value="Register">
 
                             </div>
 
                         </form>
+                         <?php
+                         if (isset($_POST['register'])){
+                           $fullname  = $_POST['fullname'];
+                           $phone     = $_POST['phone'];
+                           $email     = $_POST['email'];
+                           $password  = $_POST['password'];
+                           $gender    = $_POST['gender'];
+                           $sql  = "INSERT INTO `wash1` ( `username`, `phone`, `email`, `password`, `Gender`)  VALUES ('$username','$phone','$email','$password','$gender')";
+                           $result = mysqli_query($connection,$sql);
+                           if ($result){
+                             echo "registration Successful";
+                           }else{
+                             echo "registration Unsucessful";
+
+
+                           }
+                         }
+                         ?>
                     </div>
                 </div>
             </div>

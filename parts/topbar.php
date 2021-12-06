@@ -26,11 +26,11 @@
                     <div class="col-4">
                         <div class="top-bar-item">
                           <div class="ml-auto">
-                      <a class="btn btn-custom" href="registration.html">SIGN UP</a>
+                      <a class="btn btn-custom" href="registration.php">SIGN UP</a>
                           </div>
                         </div>
                     </div>
-                            <a class="btn btn-custom" href="login.html">SIGN IN</a>
+                            <a class="btn btn-custom" href="login.php">SIGN IN</a>
                                 </div>
                             </div>
                         </div>

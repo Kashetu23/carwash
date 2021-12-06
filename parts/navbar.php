@@ -17,7 +17,7 @@
 
                 </div>
                 <div class="ml-auto">
-                    <a class="btn btn-custom" href="registration.html"target="">BOOK NOW!!!</a>
+                    <a class="btn btn-custom" href="registration.php"target="">BOOK NOW!!!</a>
                 </div>
             </div>
         </nav>
