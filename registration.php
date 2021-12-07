@@ -4,9 +4,8 @@ $un = "root";
 $pwd = "";
 $dbname = "project1";
 $connection = mysqli_connect($host,$un,$pwd,$dbname);
-
-
-
+ session_start();
+  function Redirect($page) { echo '<script>location.href="'.$page.'";</script>'; }
  ?>
 <html>
 <head>
@@ -67,7 +66,7 @@ body {
             <div id="login-row" class="row gx-4 gx-lg-5 justify-content-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="booking.php" method="post">
+                        <form id="login-form" class="form" action="" method="post">
                             <h4 class="text-center text-info"><b>Enter your details...</b></h4>
                             <div class="form-group">
                               <b>Username: </b>
@@ -93,22 +92,18 @@ body {
                         <option value="female">Female</option>
                          </select>
 
-
                             </div>
                             <div class="form-group">
                             </br>
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label>
-                               <a href="login.html"> Already have an account</a>
-
+                               <a href="login.php"> Already have an account</a>
                             </br>
                                 <input type="submit" name="register" class="btn btn-info btn-md" value="Register">
-
                             </div>
-
                         </form>
                          <?php
                          if (isset($_POST['register'])){
-                           $fullname  = $_POST['fullname'];
+                           $username  = $_POST['username'];
                            $phone     = $_POST['phone'];
                            $email     = $_POST['email'];
                            $password  = $_POST['password'];
@@ -117,10 +112,10 @@ body {
                            $result = mysqli_query($connection,$sql);
                            if ($result){
                              echo "registration Successful";
+                             $_SESSION['name'] = $username;
+                             Redirect("booking.php");
                            }else{
                              echo "registration Unsucessful";
-
-
                            }
                          }
                          ?>
@@ -130,4 +125,4 @@ body {
         </div>
     </div>
 </body>
-</html>
+</htmlp

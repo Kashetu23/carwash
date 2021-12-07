@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="en">
   <?php include 'parts/head.php'; ?>
@@ -17,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Booking</h2>
+                        <h2>Booking <?php if(isset($_SESSION['fullname'])){echo $_SESSION['fullname']; }?></h2>
                     </div>
                     <div class="col-12">
                         <a href="index.php">Home</a>
@@ -100,6 +101,14 @@
                                       <option class="text-danger" value="Pick Up">pick up</option>
                                   </select>
                                 </div>
+                                <div class="control-group">
+                                  <select class="form-control" required="required">
+                                    <option class="text-primary" default>Type of cleaning </option>
+                                      <option class="text-danger" value="Basic cleaning">basic cleaning</option>
+                                      <option class="text-danger" value="Premium cleaning">premium cleaning</option>
+                                      <option class="text-danger" value="Standard cleaning">standard cleaning</option>
+                                  </select>
+                              </div>
                                 <div class="control-group">
                                   <input type="text" name="username" placeholder="Enter username ..." autocomplete="off" class="form-control" required="required" />
                                 </div>
