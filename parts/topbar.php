@@ -26,7 +26,7 @@
                     <div class="col-4">
                         <div class="top-bar-item">
                           <div class="ml-auto">
-                      <a class="btn btn-custom" href="registration.php"> BOOK NOW!!!</a>
+                      <a class="btn btn-custom" href="register.php"> BOOK NOW!!!</a>
                           </div>
                         </div>
                     </div>
