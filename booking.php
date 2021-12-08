@@ -27,7 +27,7 @@
         // if booking is added send sms to user
         if ($booking) {
             // Show success message in the view
-            $details = "You can bring your ".$car." to any of the washing point on the ".$date_booked." for a ".$cleaning." wash.";
+            $details = "You can bring your ".$car." to any of the washing point on ".$date_booked." for a ".$cleaning." wash.";
             $success = "Booking added successfully with booking id: B000" . $booking_id ." ". $details;
             // Send sms to user
             $message = "Hello ".$user['name'].", Your booking has been added to the system. Your booking id is: B000" . $booking_id ." ". $details;
