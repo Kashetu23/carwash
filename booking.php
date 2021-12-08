@@ -192,7 +192,7 @@
                                 </div>
                                 <hr class="text-center text-white"> OR <hr>
                                 <div class="control-group">
-                                    <button type="reset" class="btn btn-warning" onclick="window.location.reload()">Reset Button</button>
+                                    <button type="reset" class="btn btn-block btn-outline-warning" onclick="window.location.reload()">Reset Button</button>
                                 </div>
                             </form>
                         </div>
