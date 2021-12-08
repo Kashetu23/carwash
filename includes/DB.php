@@ -98,17 +98,44 @@ class DB {
 
     public function sendSMS(mixed $phone, string $message)
     {
-        $url = "https://api.textlocal.in/send/";
-        $data = array('apikey' => '0jqXQZqZQZW-0jqXQZqZQZW-0jqXQZqZQZW'.
-        '&numbers=91' . $phone . '&message=' . $message);
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_POST, true);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $result = curl_exec($ch);
-        curl_close($ch);
-        return $result;
+        $curl = curl_init();
+
+        curl_setopt_array($curl, [
+            CURLOPT_URL => "https://api.ikelvin.co/sms/send",
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "POST",
+            CURLOPT_POSTFIELDS => "{\n\t\"api_key\": \"709d65740b1ca881b60e077062810354\",\n\t\"source\": \"StreetsWash\",\n\t\"destination\": \"".$phone."\",\n\t\"message\": \"".$message."\",\n\t\"type\": \"2\",\n\t\"report\": \"1\"\n}",
+            CURLOPT_HTTPHEADER => [
+                "Authorization: Basic OjcwOWQ2NTc0MGIxY2E4ODFiNjBlMDc3MDYyODEwMzU0",
+                "Content-Type: application/json"
+            ],
+        ]);
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            echo "cURL Error #:" . $err;
+        }
+        return $response;
+    }
+
+    public function userExists(mixed $user_id)
+    {
+        $sql = "SELECT * FROM user_tb WHERE id = '$user_id'";
+        return count($this->query($sql)) > 0;
+    }
+
+    public function getLastBookingId()
+    {
+        $sql = "SELECT id FROM booking_tb ORDER BY id DESC LIMIT 1";
+        return $this->query($sql)[0]['id'];
     }
 
 

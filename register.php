@@ -83,37 +83,31 @@
                         <div id="login-box" class="col-md-12">
                             <form id="login-form" class="form" action="" method="post">
                                 <h4 class="text-center text-info"><b>Enter your details...</b></h4>
+                                    <div class="form-group">
+                                        <input class="text form-control" type="text" name="name" placeholder="Enter Full Name" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="text form-control" type="text" name="phone" placeholder="Enter Phone Number" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="text form-control" type="email" name="email" placeholder="Enter Email" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="text form-control" type="password" name="password" placeholder="Enter Password" required="">
+                                    </div>
                                 <div class="form-group">
-                                  <b>Full Name: </b>
-                                   <input class="text" type="text" name="name" placeholder="Enter Full Name" required="">
-                                </br>
-                              </br>
-                              <b>Phone: </b>
-                              <input class="text" type="text" name="phone" placeholder="Enter Phone number" required="">
-                                </br>
-                              </br>
-                              <b> Email:</b>
-                              <input class="text" type="email" name="email" placeholder="Please email" required="">
-                            </br>
-                            </br>
-                              <b>Password: </b>
-                                  <input class="text" type="password" name="password" placeholder="Enter password" required="">
-                                  </br>
-                                 </br>
-                               <b>Gender:</b>
-                            <select name="gender">
-                            <option value="">Select Gender</option>
-                           <option value="male">Male</option>
-                            <option value="female">Female</option>
-                             </select>
+                                    <label> <b>Gender:</b> </label>
 
+                                    <select name="gender" class="form-control">
+                                        <option value="">Select Gender</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
+                                    </select>
                                 </div>
-                                <div class="form-group">
-                                </br>
-                                    <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label>
+
                                    <a href="login.php"> Already have an account</a>
-                                </br>
-                                    <input type="submit" name="register" class="btn btn-info btn-md" value="Register">
+                                <div class="form-group">
+                                    <input type="submit" name="register" class="btn btn-info btn-lg btn-block btn-custom" value="Register">
                                 </div>
                             </form>
                         </div>
