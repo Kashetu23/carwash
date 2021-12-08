@@ -47,6 +47,7 @@
                                     <li><i class="far fa-check-circle"></i>Seats Washing</li>
                                     <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
                                     <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
+                                    <li><i class="far fa-check-circle"></i>30 mins for washing</li>
                                     <li><i class="far fa-times-circle"></i>Interior Wet Cleaning</li>
                                     <li><i class="far fa-times-circle"></i>Engine Washing</li>
                                 </ul>
@@ -67,6 +68,7 @@
                                     <li><i class="far fa-check-circle"></i>Seats Washing</li>
                                     <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
                                     <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
+                                    <li><i class="far fa-check-circle"></i>45 mins for washing</li>
                                     <li><i class="far fa-check-circle"></i>Interior Wet Cleaning</li>
                                     <li><i class="far fa-times-circle"></i>Engine Washing</li>
                                 </ul>
@@ -87,6 +89,7 @@
                                     <li><i class="far fa-check-circle"></i>Seats Washing</li>
                                     <li><i class="far fa-check-circle"></i>Vacuum Cleaning</li>
                                     <li><i class="far fa-check-circle"></i>Exterior Cleaning</li>
+                                    <li><i class="far fa-check-circle"></i>1 hour for washing</li>
                                     <li><i class="far fa-check-circle"></i>Interior Wet Cleaning</li>
                                     <li><i class="far fa-check-circle"></i>Engine Washing</li>
                                 </ul>
