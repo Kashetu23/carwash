@@ -1,11 +1,15 @@
 <?php
-    // Import DB class from db.php
+    // Import DB class from DB.php
     require_once('includes/DB.php');
     // import authetication.php to check if user is logged in
     require_once('includes/authentication.php');
 
+    // Import SMS class from SMS.php
+    require_once('includes/SMS.php');
+
     // Create a new instance of the DB class
     $db = new DB();
+    $sms = new SMS();
 
     // Get the user id from the session
     $user_id = $_SESSION['user_id'];
@@ -31,9 +35,9 @@
             $success = "Booking added successfully with booking id: B000" . $booking_id ." ". $details;
             // Send sms to user
             $message = "Hello ".$user['name'].", Your booking has been added to the system. Your booking id is: B000" . $booking_id ." ". $details;
-            $sms = $db->sendSMS($phone, $message);
+            $smsAlert = $sms->send($phone, $message);
             // If sms is sent append to success message
-            if ($sms) {
+            if ($smsAlert) {
                 $success .= " and sms sent to ". $phone;
             } else {
                 $success .= " but sms could not be sent to ". $phone;
