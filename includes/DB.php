@@ -132,5 +132,11 @@ class DB {
         return count($this->query($sql)) > 0;
     }
 
+    public function getLastBookingId()
+    {
+        $sql = "SELECT id FROM booking_tb ORDER BY id DESC LIMIT 1";
+        return $this->query($sql)[0]['id'];
+    }
+
 
 }

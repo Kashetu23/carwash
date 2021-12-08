@@ -23,12 +23,14 @@
 
         // Add booking to database
         $booking = $db->addBooking($user_id, $phone, $car, $cleaning, $date_booked);
+        $booking_id = $db->getLastBookingId();
         // if booking is added send sms to user
         if ($booking) {
             // Show success message in the view
-            $success = "Booking added successfully with booking id: B000" . $booking;
+            $details = "You can bring your ".$car." to any of the washing point on the ".$date_booked." for a ".$cleaning." wash.";
+            $success = "Booking added successfully with booking id: B000" . $booking_id ." ". $details;
             // Send sms to user
-            $message = "Your booking has been added to the system. Your booking id is: B000" . $booking;
+            $message = "Hello ".$user['name'].", Your booking has been added to the system. Your booking id is: B000" . $booking_id ." ". $details;
             $sms = $db->sendSMS($phone, $message);
             // If sms is sent append to success message
             if ($sms) {
