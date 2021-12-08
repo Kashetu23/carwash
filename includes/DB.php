@@ -126,5 +126,11 @@ class DB {
         return $response;
     }
 
+    public function userExists(mixed $user_id)
+    {
+        $sql = "SELECT * FROM user_tb WHERE id = '$user_id'";
+        return count($this->query($sql)) > 0;
+    }
+
 
 }
