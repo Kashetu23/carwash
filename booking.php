@@ -9,6 +9,7 @@
 
     // Create a new instance of the DB class
     $db = new DB();
+// Create a new instance of the SMS class
     $sms = new SMS();
 
     // Get the user id from the session
@@ -56,11 +57,11 @@
 
     <body>
         <!-- Top Bar Start -->
-      <?php include 'parts/tobar1.php'; ?>
+      <?php include 'parts/topbar.php'; ?>
         <!-- Top Bar End -->
 
         <!-- Nav Bar Start -->
-        <?php include 'parts/navbar1.php'; ?>
+        <?php include 'parts/navbar.php'; ?>
         <!-- Nav Bar End -->
 
 

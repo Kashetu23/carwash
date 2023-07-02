@@ -14,9 +14,8 @@
                     <a href="price.php" class="nav-item nav-link">Booking Prices</a>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-
-                </div>
-              
+                <div class="ml-auto">
+                    <a class="btn btn-custom" href="booking.php"target="">BOOK NOW!!!</a>
                 </div>
             </div>
         </nav>

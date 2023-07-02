@@ -22,19 +22,42 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-4">
-                        <div class="top-bar-item">
-                          <div class="ml-auto">
-                      <a class="btn btn-custom" href="register.php"> BOOK NOW!!!</a>
-                          </div>
-                        </div>
-                    </div>
-                            <a class="btn btn-custom" href="login.php">SIGN IN</a>
+                    <?php if(isset($_SESSION['user_id'])){ ?>
+                        <div class="col-4">
+                            <div class="top-bar-item">
+                                <div class="top-bar-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="top-bar-text">
+                                    <h3>Welcome</h3>
+                                    <p> <?= $user['name']; ?> </p>
                                 </div>
                             </div>
                         </div>
+                    <div class="col-4">
+                        <div class="top-bar-item">
+                            <div class="ml-auto">
+                                <a class="btn btn-custom" href="logout.php"> Logout</a>
+                            </div>
+                        </div>
                     </div>
+                    <?php } else { ?>
+
+                    <div class="col-auto">
+                        <div class="top-bar-item">
+                          <div class="ml-auto">
+                            <a class="btn btn-custom" href="register.php"> Register</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="top-bar-item">
+                            <div class="ml-auto">
+                                <a class="btn btn-custom" href="login.php">SIGN IN</a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>

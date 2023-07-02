@@ -19,7 +19,7 @@
 
         $db = new DB();
         $register = $db->insertUser($name, $phone, $email, $password, $gender) ;
-        header ( 'Location: ' . ( $register ? 'booking.php' : '' ) );
+        header ( 'Location: ' . ( $register ? 'bookingi.php' : '' ) );
     }
 
  ?>

@@ -1,3 +1,24 @@
+<?php
+    // Import DB class from DB.php
+    require_once('includes/DB.php');
+
+    // Import SMS class from SMS.php
+    require_once('includes/SMS.php');
+
+    // Create a new instance of the DB class
+    $db = new DB();
+
+    // Get the user id from the session
+    if (isset($_SESSION['user_id'])) {
+        $user_id = $_SESSION['user_id'];
+
+    // Get the user's data from the database
+        $user = $db->getUser($user_id);
+    } else {
+        $user_id = 0;
+    }
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <?php include 'parts/head.php'; ?>
@@ -53,7 +74,7 @@
                                 </ul>
                             </div>
                             <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
+                                <a class="btn btn-custom" href="booking.php">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +95,7 @@
                                 </ul>
                             </div>
                             <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
+                                <a class="btn btn-custom" href="booking.php">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +116,7 @@
                                 </ul>
                             </div>
                             <div class="price-footer">
-                                <a class="btn btn-custom" href="">Book Now</a>
+                                <a class="btn btn-custom" href="booking.php">Book Now</a>
                             </div>
                         </div>
                     </div>

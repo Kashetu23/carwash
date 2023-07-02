@@ -9,7 +9,7 @@ require_once('includes/DB.php');
 
 // If the user is already logged in, redirect to the home page
 if (isset($_SESSION['user_id'])) {
-    header('Location: booking.php');
+    header('Location: index.php');
     exit;
 }
 
@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
     // If the username and password are valid, redirect to the home page
     if ($login) {
         // Redirect to the home page
-        header('Location: booking.php');
+        header('Location: index.php');
         exit;
     } else {
         // If the username and password are not valid, set an error message

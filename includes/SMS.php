@@ -6,7 +6,7 @@ class SMS {
         $curl = curl_init();
 
         curl_setopt_array($curl, [
-            CURLOPT_URL => "https://api.ikelvin.co/sms/send",
+            CURLOPT_URL => "https://devp-sms03726-api.hubtel.com/v1/messages/send",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -19,7 +19,16 @@ class SMS {
                 "Content-Type: application/json"
             ],
         ]);
-
+        {
+            "message": "string",
+            "responseCode": "string",
+            "data": {
+              "rate": 0,
+              "messageId": "string",
+              "status": "string",
+              "networkId": "string"
+            }
+          }
         $response = curl_exec($curl);
         $err = curl_error($curl);
 
