@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
     // Import DB class from DB.php
     require_once('includes/DB.php');
@@ -137,6 +138,8 @@
     </body>
 </html>
 =======
+=======
+>>>>>>> 63d0d90d5a8d2110eaa8d6a19d436081d3b4cfaa
 <?php
     // Import DB class from DB.php
     require_once('includes/DB.php');

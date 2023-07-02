@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 // start session and logout
 session_start();
@@ -10,6 +11,8 @@ header("Location: login.php");
 ?>
 
 =======
+=======
+>>>>>>> 63d0d90d5a8d2110eaa8d6a19d436081d3b4cfaa
 <?php
 // start session and logout
 session_start();
@@ -20,4 +23,7 @@ header("Location: login.php");
 
 ?>
 
+<<<<<<< HEAD
+>>>>>>> 63d0d90d5a8d2110eaa8d6a19d436081d3b4cfaa
+=======
 >>>>>>> 63d0d90d5a8d2110eaa8d6a19d436081d3b4cfaa
